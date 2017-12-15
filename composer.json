@@ -1,0 +1,14 @@
+{
+    "name": "yanlinwang/gaode-maps",
+    "description": "This is a php package for Gaode Maps Places API",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yan Lin Wang",
+            "email": "charles.w.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

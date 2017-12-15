@@ -1,6 +1,6 @@
 <?php
 
-namespace Yanlinwang\GaodeMaps;
+namespace Imphinite\GaodeMaps;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -17,6 +17,6 @@ class GaodeMapsFacade extends Facade
      */
     protected static function getFacadeAccessor() 
     {
-         return 'yanlinwang-gaode-maps'; 
+         return 'imphinite-gaode-maps'; 
     }
 }

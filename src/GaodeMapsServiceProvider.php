@@ -1,6 +1,6 @@
 <?php
 
-namespace Yanlinwang\GaodeMaps;
+namespace Imphinite\GaodeMaps;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,7 +23,7 @@ class GaodeMapsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('yanlinwang-gaode-maps', function() {
+        $this->app->bind('imphinite-gaode-maps', function() {
             return new GaodeMaps();
         });
     }

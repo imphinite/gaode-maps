@@ -1,5 +1,5 @@
 {
-    "name": "yanlinwang/gaode-maps",
+    "name": "imphinite/gaode-maps",
     "description": "This is a php package for Gaode Maps Places API",
     "type": "laravel",
     "license": "MIT",

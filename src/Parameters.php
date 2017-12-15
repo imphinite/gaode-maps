@@ -1,6 +1,6 @@
 <?php 
 
-namespace Yanlinwang\GaodeMaps;
+namespace Imphinite\GaodeMaps;
 
 /**
  * Description of GaodeMaps

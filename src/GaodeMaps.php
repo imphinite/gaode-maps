@@ -8,7 +8,7 @@ namespace GaodeMaps;
  * @author Yan Lin Wang <charles.w.developer@gmail.com>
  */
 
-class GaodeMaps extends WebService
+class GaodeMaps extends \GaodeMaps\WebService
 {
     /**
      * Array of classes to handle web service request

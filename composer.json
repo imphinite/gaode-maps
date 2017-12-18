@@ -19,7 +19,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+		"illuminate/support": "5.*"
+    },
 	"autoload": {
 		"psr-4": {
 			"GaodeMaps\\": "src/"

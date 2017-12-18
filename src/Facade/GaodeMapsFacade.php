@@ -1,6 +1,6 @@
 <?php
 
-namespace GaodeMaps;
+namespace GaodeMaps\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

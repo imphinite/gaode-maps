@@ -34,8 +34,7 @@ class GaodeMaps extends WebService
 
         return $class;
     }
-      
-      
+    
     protected function build($service)
     {
         parent::build($service);

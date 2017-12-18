@@ -16,6 +16,6 @@ class GaodeMapsFacade extends Facade
      */
     protected static function getFacadeAccessor() 
     {
-         return 'GoogleMaps';
+         return 'GaodeMaps';
     }
 }

@@ -10,11 +10,6 @@ namespace Imphinite\GaodeMaps;
 
 class GaodeMaps extends WebService
 {
-    public function display()
-    {
-        return "from display function";
-    }
-
     /**
      * Array of classes to handle web service request
      * By default WebService class will be used

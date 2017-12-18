@@ -13,7 +13,7 @@ class GaodeMapsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        require __DIR__.'/routes/routes.php';
+        //
     }
 
     /**

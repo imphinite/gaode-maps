@@ -1,6 +1,6 @@
 <?php 
 
-namespace Yanlinwang\GaodeMaps;
+namespace Imphinite\GaodeMaps;
 
 /**
  * Description of GaodeMaps
@@ -20,7 +20,7 @@ class WebService
     |
     |
     */     
-    protected $service;    
+    protected $service;
     
     /*
     |--------------------------------------------------------------------------
@@ -30,7 +30,7 @@ class WebService
     |
     |
     */     
-    protected $key;     
+    protected $key;
     
     /*
     |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ class WebService
     |
     |
     */     
-    protected $requestUrl; 
+    protected $requestUrl;
     
     /*
     |--------------------------------------------------------------------------
@@ -50,7 +50,7 @@ class WebService
     |
     |
     */     
-    protected $verifySSL;        
+    protected $verifySSL;
 
     /**
      * Class constructor

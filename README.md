@@ -1,9 +1,9 @@
 ## Collection of Gaode Web Services API for Laravel 5 
 **DEVELOPMENT IN PROGRESS**
 
-Provides convenient way of setting up and making requests to Web Services API from [Laravel](http://laravel.com/) application. 
+Provides convenient way of setting up and making requests to Gaode Web Services API from [Laravel](http://laravel.com/) application. 
 
-For services documentation, API key and Usage Limits visit [Gaode Web Services API](https://lbs.amap.com/api/webservice/summary/) and [Web Services API Usage Limits And Restrictions](https://lbs.amap.com/api/webservice/guide/tools/flowlevel/).
+For services documentation, API key and Usage Limits visit [Gaode Web Services API](https://lbs.amap.com/api/webservice/summary/) and [Gaode Web Services API Usage Limits And Restrictions](https://lbs.amap.com/api/webservice/guide/tools/flowlevel/).
 
 **Note that this package is under development. Most Features are not implemented yet. Feel free to collaborate on this project!
 
@@ -238,7 +238,6 @@ $response = GaodeMaps::load('nearbysearch')
 
 var_dump( json_decode( $response ) );  // output 
 ...
-```
 
 /*
 {
@@ -258,17 +257,12 @@ var_dump( json_decode( $response ) );  // output
             "type": "餐饮服务;中餐厅;特色/地方风味餐厅",
             ...
 */
-
----
-
-License
--------
-
-Collection of Gaode Web Services API for Laravel 5 is released under the MIT License. 
-
----
+```
 
 MIT License
+-------
+
+Collection of Gaode Web Services API for Laravel 5 is released under the MIT License: 
 
 Copyright (c) 2017 Yan Lin Wang
 

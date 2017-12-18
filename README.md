@@ -1,5 +1,5 @@
 ## Collection of Gaode Web Services API for Laravel 5 
-## **DEVELOPMENT IN PROGRESS
+**DEVELOPMENT IN PROGRESS**
 Provides convenient way of setting up and making requests to Web Services API from [Laravel](http://laravel.com/) application. 
 
 For services documentation, API key and Usage Limits visit [Gaode Web Services API](https://lbs.amap.com/api/webservice/summary/) and [Web Services API Usage Limits And Restrictions](https://lbs.amap.com/api/webservice/guide/tools/flowlevel/).

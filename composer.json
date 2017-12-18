@@ -8,7 +8,8 @@
         "Gaode web services api",
         "China places api",
         "places api web service",
-        "laravel places api"
+        "laravel places api",
+        "高德 api"
     ],
     "license": "MIT",
     "authors": [

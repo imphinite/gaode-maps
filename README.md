@@ -1,9 +1,12 @@
-## Collection of Gaode Web Services API for Laravel 5 **DEVELOPMENT IN PROGRESS
+## Collection of Gaode Web Services API for Laravel 5 
+## **DEVELOPMENT IN PROGRESS
 Provides convenient way of setting up and making requests to Web Services API from [Laravel](http://laravel.com/) application. 
-For services documentation, API key and Usage Limits visit [Google Web Services API](https://lbs.amap.com/api/webservice/summary/) and [Web Services API Usage Limits And Restrictions](https://lbs.amap.com/api/webservice/guide/tools/flowlevel/).
+
+For services documentation, API key and Usage Limits visit [Gaode Web Services API](https://lbs.amap.com/api/webservice/summary/) and [Web Services API Usage Limits And Restrictions](https://lbs.amap.com/api/webservice/guide/tools/flowlevel/).
 
 **Note that this package is under development. Most Features are not implemented yet. Feel free to collaborate on this project!
-**SPECIAL THANKS TO [Alexpechkarev](https://github.com/alexpechkarev/). Web Services Engine is borrowed from [Alexpechkarev/google-maps](https://github.com/alexpechkarev/google-maps/)
+
+**SPECIAL THANKS TO [Alexpechkarev](https://github.com/alexpechkarev/). Web Services Engine is borrowed from [Alexpechkarev/google-maps](https://github.com/alexpechkarev/google-maps/).
 
 
 Features
@@ -99,33 +102,35 @@ $service = GaodeMaps::load('nearbysearch')
             'output'            => 'json'
         ]);
 $response = $service->get();
+...
 ```
 
 Alternatively parameters can be set using `setParamByKey()` method. For deeply nested array use "dot" notation as per example below.
 
 ```php
-$endpoint = \GaodeMaps::load('nearbysearch')
-   ->setParamByKey('location', '120.392164,36.056936')
-   ->setParamByKey('keywords', '餐厅') //return $this
-    ... 
-
+$endpoint = GaodeMaps::load('nearbysearch')
+        ->setParamByKey('location', '120.392164,36.056936')
+        ->setParamByKey('keywords', '餐厅') //return $this
+...
 ```
 
 Another example showing request to Batch Request service when requesting multiple places' details:
 
 ```php
 $batch_urls = array();
-array_push($batch_urls, (object) array('url' => 
-    GaodeMaps::load('placedetails')
+array_push($batch_urls, (object) array(
+    'url' => GaodeMaps::load('placedetails')
         ->setParam(['id' => $place->id)
-        ->getBatchUrl())
-    );
+        ->getBatchUrl()
+    )
+);
 
 $service = GaodeMaps::load('batchrequest')
         ->setParam([
             'ops'               => $batch_urls
         ]);
 $response = $batch_service->get();
+...
 ```
 
 Available methods
@@ -146,7 +151,6 @@ Accepts string as parameter, web service name as specified in configuration file
 Returns reference to it's self.
 
 ```php
-
 GaodeMaps::load('nearbysearch') 
 ... 
 
@@ -166,9 +170,9 @@ Returns reference to it's self.
 
 ```php
 $service = GaodeMaps::load('nearbysearch')
-   ->setParamByKey('location', '120.392164,36.056936')
-   ->setParamByKey('keywords', '餐厅') //return $this
-    ...
+        ->setParamByKey('location', '120.392164,36.056936')
+        ->setParamByKey('keywords', '餐厅') //return $this
+...
 ```
 
 ---
@@ -232,6 +236,8 @@ $response = GaodeMaps::load('nearbysearch')
         ])->get();
 
 var_dump( json_decode( $response ) );  // output 
+...
+```
 
 /*
 {

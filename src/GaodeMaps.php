@@ -1,6 +1,6 @@
 <?php 
 
-namespace Imphinite\GaodeMaps;
+namespace GaodeMaps;
 
 /**
  * Description of GaodeMaps

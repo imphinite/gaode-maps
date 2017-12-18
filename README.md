@@ -236,7 +236,7 @@ $response = GaodeMaps::load('nearbysearch')
             'output'            => 'json'
         ])->get();
 
-var_dump( json_decode( $response ) );  // output 
+var_dump(json_decode($response));  // output 
 ...
 
 /*
@@ -255,7 +255,7 @@ var_dump( json_decode( $response ) );  // output
             "tag": "牛道红花牛三品,菌类拼盘,新快猪上五花,牛舌厚切,石锅拌饭,红花三拼,红花牛芝士盖饭,烤蘑菇,红花牛肉,猪雪花肩胛肉,牛舌薄切,生拌牛肉,迷你现压朝鲜冷面,炒乌冬面,牛肩胛肉,酱香牛腿芯,海鲜饼,牛肋脊,泡菜饼,烤牛肉,牛仔骨,海鲜乌冬面,红花牛特色三样,烤五花肉,极品一口牛排",
             "name": "新快牛道红花牛馆(百丽广场店)",
             "type": "餐饮服务;中餐厅;特色/地方风味餐厅",
-            ...
+...
 */
 ```
 

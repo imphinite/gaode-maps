@@ -8,8 +8,6 @@ namespace Imphinite\GaodeMaps;
  * @author Yan Lin Wang <charles.w.developer@gmail.com>
  */
 
-//use \GaodeMaps\Parameters;
-
 class WebService
 {
     /*

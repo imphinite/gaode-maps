@@ -1,7 +1,15 @@
 {
     "name": "imphinite/gaode-maps",
-    "description": "This is a php package for Gaode Maps Places API",
+    "description": "This is a php package for Gaode Web Services API",
     "type": "laravel",
+    "version": "0.0.0",
+    "keywords": [
+        "Gaode maps api",
+        "Gaode web services api",
+        "China places api",
+        "places api web service",
+        "laravel places api"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -10,5 +18,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"GaodeMaps\\": "src/"
+		}
+	}
 }

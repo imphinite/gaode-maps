@@ -299,7 +299,7 @@ class WebService
     {
         $ch = curl_init($this->requestUrl);
        
-       if($isPost)
+        if($isPost)
         {
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
                 'Content-Type: application/json;charset=UTF-8',

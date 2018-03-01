@@ -1,13 +1,13 @@
 <?php
 
-namespace GaodeMaps\Facade;
+namespace GaodeMaps\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Illuminate\Html\HtmlBuilder
  */
-class GaodeMapsFacade extends Facade 
+class GaodeMaps extends Facade 
 {
     /**
      * Get the registered name of the component.
